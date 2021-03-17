@@ -1,0 +1,83 @@
+marquee {
+    background-color: palevioletred;
+    color: floralwhite;
+    font-size: 30px;
+}
+
+body {
+    text-align: center;
+}
+
+row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.travel_mainDiv {
+    float: left;
+    padding: 5px;
+    width: 33.33%;
+    border: 1px solid #c7c7c7;
+}
+
+.travel_mainDiv img {
+    width: 100%;
+    300px;
+}
+
+.travel_mainDiv hr {
+    width: 100%;
+}
+
+.travel_mainDiv h5,
+.travel_mainDiv p {
+    margin-left: 20px;
+}
+
+.movie_head {
+    font-size: 20px;
+    padding: 6px;
+    border-radius: 30px;
+    margin-top: 20px;
+    width: 100%;
+    display: inline-block;
+}
+
+.movie_head i {
+    float: right;
+}
+
+.navbar-inverse {
+    position: sticky;
+    top: 0;
+    z-index: 99999
+}
+
+.bob {
+    width: 300px;
+    height: 275px
+}
+
+.p_modal {
+    margin-top: 10px;
+}
+
+.img_modal {
+    display: inline-block;
+    width: 325px;
+    height: 425px;
+}
+
+.books {
+    cursor: pointer;
+}
+
+.things {
+    text-align: center
+}
+
+#thing {
+    text-align: center;
+    font-size: 25px;
+}
